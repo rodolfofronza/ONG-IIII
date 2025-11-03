@@ -75,4 +75,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Inicializa o formulário na primeira carga
   setupFormHandler();
+
+  // ================================
+// MODO ESCURO / DARK MODE
+// ================================
+const themeButton = document.getElementById('toggle-theme');
+const userTheme = localStorage.getItem('theme');
+
+if (userTheme === 'dark') {
+  document.body.classList.add('dark-mode');
+  themeButton.textContent = '☀️';
+}
+
+themeButton.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+  const isDark = document.body.classList.contains('dark-mode');
+  themeButton.textContent = isDark ? '☀️' : '🌙';
+  localStorage.setItem('theme', isDark ? 'dark' : 'light');
+});
+
 });

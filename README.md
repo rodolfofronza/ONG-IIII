@@ -1,16 +1,24 @@
 # 🌐 ONG TransformaTech
 
-**TransformaTech** é uma ONG fictícia criada com o propósito de promover a **inclusão digital e social** por meio da tecnologia.  
-O projeto foi desenvolvido como parte de um trabalho acadêmico, aplicando conceitos de **HTML5 semântico** e **CSS3 moderno**.
+Projeto desenvolvido como trabalho escolar para a ONG **TransformaTech**, com foco em inclusão digital, cursos gratuitos e reciclagem de equipamentos.
 
 ---
 
 ## 🚀 Objetivo do Projeto
-Criar um site institucional totalmente **responsivo**, **acessível** e **visual**, apresentando:
-- A missão e os valores da ONG;
-- Projetos desenvolvidos;
-- Um formulário de cadastro para voluntários;
-- Navegação intuitiva e adaptada para dispositivos móveis.
+- Criar um site funcional e responsivo para ONG fictícia.
+- Implementar boas práticas de HTML5 semântico, CSS3 e JavaScript avançado.
+- Garantir acessibilidade e experiência otimizada para usuários e dispositivos móveis.
+- Aplicar controle de versão com Git/GitHub, documentação técnica e deploy.
+
+---
+
+## 📚 Tecnologias Utilizadas
+
+- **HTML5** (semântica e estrutura)
+- **CSS3** (Flexbox, Grid, Design System)
+- **JavaScript (ES6+)** (SPA básica, validação de formulários, storage, toast notifications)
+- **Git & GitHub** (versionamento, branching GitFlow, pull requests, issues)
+- **Ferramentas de otimização**: Minificação de CSS/JS/HTML, compressão de imagens
 
 ---
 
@@ -44,20 +52,19 @@ O site é composto por **3 páginas principais**:
 
 ---
 
-## 🧠 Tecnologias Utilizadas
-
-- **HTML5 Semântico**  
-- **CSS3 (Flexbox + Grid Layout)**  
-- **JavaScript (para interação do menu e formulários)**  
-
----
-
 ## ⚙️ Funcionalidades Implementadas
 
-- Layout responsivo para todos os dispositivos  
-- Interação visual com animações leves  
-- Validação de formulário e alerta de envio  
-- Organização modular de estilos (`css/style.css`)  
+- SPA (Single Page Application) básica com navegação sem recarregar a página.
+- Menu principal responsivo e mobile (hambúrguer).
+- Sistema de cards responsivos para projetos.
+- Formulário de cadastro de voluntários com validação visual e feedback (toast notifications).
+- Sistema de armazenamento no `localStorage` para cadastro.
+- Design responsivo usando **Grid 12 colunas** e Flexbox.
+- Suporte básico para acessibilidade:
+  - Navegação por teclado
+  - Labels e `alt` em imagens
+  - Contraste adequado
+  - Estrutura semântica
 
 ---
 🧩 Estrutura Modular do JavaScript
@@ -69,6 +76,14 @@ O site é composto por **3 páginas principais**:
 ✅ js/formValidation.js – Validação dos campos dos formulários, incluindo verificação de campos obrigatórios e formato de e-mail. Fornece feedback visual próximo ao campo em caso de erro.
 
 💾 js/storage.js – Gerencia o armazenamento de dados no localStorage, salvando os voluntários cadastrados e permitindo persistência local.
+
+---
+
+## 🖌️ Design System
+
+- **Cores**: Primárias, secundárias e neutras (8 variáveis)
+- **Tipografia**: 5 tamanhos de fonte (xs, sm, md, lg, xl)
+- **Espaçamento modular**: 8px, 16px, 24px, 32px, 48px, 64px
 
 ---
 
