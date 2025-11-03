@@ -12,16 +12,18 @@
       <img src="Imagens/Logo1.jpg" alt="Logo da TransformaTech" width="100">
       <h1>ONG TransformaTech</h1>
 
-      <div class="menu-toggle">&#9776;</div>
+      <div class="menu-toggle" aria-label="Abrir menu de navegação" role="button" tabindex="0">&#9776;</div>
 
-      <nav>
-        <ul class="section-flex">
-          <li><a href="index.html">Início</a></li>
-          <li><a href="projetos.html">Projetos</a></li>
-          <li><a href="cadastro.html">Cadastro</a></li>
-          <li><a href="sobrenos.html">Sobre Nós</a></li>
-        </ul>
-      </nav>
+      <nav aria-label="Menu principal">
+      <ul class="section-flex">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="sobrenos.html">Sobre Nós</a></li>
+      </ul>
+    </nav>
+    
+
       <button id="toggle-theme" aria-label="Alternar modo escuro/claro">🌙</button>
 
   </header>
@@ -62,9 +64,10 @@
     </section>
   </main>
 
-  <footer>
-    <p>&copy; <strong>TransformaTech</strong> | contato@transformatech.org</p>
-  </footer>
+  <footer role="contentinfo">
+  <p>&copy; <strong>TransformaTech</strong> | contato@transformatech.org</p>
+</footer>
+
 
   <script type="module" src="js/main.js"></script>
 </body>

@@ -76,9 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Inicializa o formulário na primeira carga
   setupFormHandler();
 
-  // ================================
-// MODO ESCURO / DARK MODE
-// ================================
+  // MODO ESCURO / DARK MODE //
+
 const themeButton = document.getElementById('toggle-theme');
 const userTheme = localStorage.getItem('theme');
 
@@ -93,5 +92,10 @@ themeButton.addEventListener('click', () => {
   themeButton.textContent = isDark ? '☀️' : '🌙';
   localStorage.setItem('theme', isDark ? 'dark' : 'light');
 });
+
+menuToggle.addEventListener('keypress', e => {
+  if (e.key === 'Enter') nav.classList.toggle('active');
+});
+
 
 });
