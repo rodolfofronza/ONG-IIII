@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Inicializa o formulário na primeira carga
   setupFormHandler();
 
-  // MODO ESCURO / DARK MODE //
+  // MODO ESCURO //
 
 const themeButton = document.getElementById('toggle-theme');
 const userTheme = localStorage.getItem('theme');

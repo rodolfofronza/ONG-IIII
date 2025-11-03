@@ -78,9 +78,7 @@ button:disabled { background:#ccc; cursor:not-allowed; }
 .toast.error { background:#dc3545; }
 .toast.visible { opacity:1; transform:translateY(0); }
 
-/* ============================
-   🌙 MODO ESCURO ACESSÍVEL
-============================ */
+/* 🌙 MODO ESCURO ACESSÍVEL */
 body.dark-mode {
   background-color: #121212;
   color: #f1f1f1;
